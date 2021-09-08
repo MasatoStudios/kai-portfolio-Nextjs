@@ -1,0 +1,39 @@
+.background{
+    background: grey;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.listFlex{
+    display: flex;
+    flex-direction: row;
+}
+
+.listItem:not(:first-child){
+    margin-left: 27px;
+}
+
+.navContainer{
+    max-width: 112rem;
+    margin: 0 auto;
+}
+
+.navContainer li{
+    list-style: none;
+}
+
+.logoContainer{
+    position: relative;
+    height: 30px;
+    width: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.logo{
+    
+}
